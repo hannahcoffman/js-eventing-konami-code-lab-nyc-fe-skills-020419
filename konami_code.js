@@ -11,11 +11,11 @@ function onKeyDown(event) {
   // if they get it wrong 
   tracker = 0
   }
- if (tracker === 9) {
+ if (tracker === 10) {
  alert('Nice job!')
 }
-
 }
+
  // event //callback (trigger something)
 document.addEventListener('keydown', onKeyDown)
                            
@@ -24,6 +24,4 @@ init()
 
 //  let key = parseInt(event.which)
 //  console.log(event.which);
-//if (key === code[tracker]){
-  
-}
+//if (key === code[tracker])
