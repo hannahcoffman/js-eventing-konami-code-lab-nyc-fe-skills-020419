@@ -11,7 +11,7 @@ function onKeyDown(event) {
  // event //callback (trigger something)
 document.addEventListener('keydown',onKeyDown)
                            
-
+init()
 
 
 //  let key = parseInt(event.which)
