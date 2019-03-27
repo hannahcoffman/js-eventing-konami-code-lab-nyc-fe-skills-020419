@@ -15,7 +15,7 @@ function onKeyDown(event) {
  alert('Nice job!')
 }
 }
-
+}
  // event //callback (trigger something)
 document.addEventListener('keydown', onKeyDown)
                            
