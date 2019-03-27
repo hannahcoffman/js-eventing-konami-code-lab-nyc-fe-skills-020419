@@ -6,15 +6,16 @@ function init() {
   
 function onKeyDown(event) {
   if (event.keyCode === code[tracker]) {
-    tracker++
+    tracker++ 
   } else {
   // if they get it wrong 
   tracker = 0
   }
+ if (tracker === 9) {
+ alert('Nice job!')
+}
 
 }
-event.keyCode
-
  // event //callback (trigger something)
 document.addEventListener('keydown', onKeyDown)
                            
