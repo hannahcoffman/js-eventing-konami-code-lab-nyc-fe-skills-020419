@@ -6,9 +6,11 @@ function init() {
   
 function onKeyDown(event) {
   console.log(event)
-                            // event //callback (trigger something)
-document.addEventListener('keydown',onKeyDown)
 }
+
+ // event //callback (trigger something)
+document.addEventListener('keydown',onKeyDown)
+                           
 
 
 
