@@ -5,11 +5,14 @@ let tracker = 0
 function init() {
   
 function onKeyDown(event) {
-  console.log(event.keyCode)
+  if (event.keyCode === code[tracker]) {
+    tracker++
 }
 
+event.keyCode
+
  // event //callback (trigger something)
-document.addEventListener('keydown',onKeyDown)
+document.addEventListener('keydown', onKeyDown)
                            
 init()
 
