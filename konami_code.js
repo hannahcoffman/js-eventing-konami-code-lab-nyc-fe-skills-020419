@@ -5,15 +5,15 @@ let tracker = 0
 function init() {
   
 function onKeyDown(event) {
-  if (event )
+  console.log(event)
                             // event //callback (trigger something)
 document.addEventListener('keydown',onKeyDown)
 }
 
 
+
 //  let key = parseInt(event.which)
 //  console.log(event.which);
-}  
-if (key === code[tracker]){
+//if (key === code[tracker]){
   
 }
