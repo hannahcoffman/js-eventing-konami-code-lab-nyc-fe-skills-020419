@@ -3,8 +3,16 @@ const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 let tracker = 0
 
 function init() {
-  let key = parseInt(event.which)
-  console.log(event.which);
+  
+function onKeyDown(event) {
+  if (event )
+                            // event //callback (trigger something)
+document.addEventListener('keydown',onKeyDown)
+}
+
+
+//  let key = parseInt(event.which)
+//  console.log(event.which);
 }  
 if (key === code[tracker]){
   
