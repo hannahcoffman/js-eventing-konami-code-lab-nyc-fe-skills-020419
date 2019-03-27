@@ -7,8 +7,12 @@ function init() {
 function onKeyDown(event) {
   if (event.keyCode === code[tracker]) {
     tracker++
+  } else {
+  // if they get it wrong 
+  tracker = 0
 }
 
+}
 event.keyCode
 
  // event //callback (trigger something)
