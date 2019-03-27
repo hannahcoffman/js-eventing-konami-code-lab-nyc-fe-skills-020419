@@ -10,7 +10,7 @@ function onKeyDown(event) {
   } else {
   // if they get it wrong 
   tracker = 0
-}
+  }
 
 }
 event.keyCode
